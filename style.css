@@ -1230,7 +1230,7 @@ background:#464646;
 	background: rgba(230,132,107,0);
 }
 .ch-img-1 { 
-	background-image: url(images/PS1.PNG);
+	background-image: url(images/PS1.png);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -o-border-radius: 50%;
@@ -1238,7 +1238,7 @@ background:#464646;
   -moz-border-radius: 50%;
 }
 .ch-img-2 { 
-	background-image: url(images/AI.PNG);
+	background-image: url(images/AI.png);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -o-border-radius: 50%;
@@ -1246,7 +1246,7 @@ background:#464646;
   -moz-border-radius: 50%;
 }
 .ch-img-3 { 
-	background-image: url(images/cor.PNG);
+	background-image: url(images/cor.png);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -o-border-radius: 50%;
@@ -1254,7 +1254,7 @@ background:#464646;
   -moz-border-radius: 50%;
 }
 .ch-img-4{ 
-	background-image: url(images/DW.PNG);
+	background-image: url(images/DW.png);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -o-border-radius: 50%;

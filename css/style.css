@@ -1253,7 +1253,7 @@ height:100%;
 	background: rgba(230,132,107,0);
 }
 .ch-img-1 { 
-	background-image: url(../images/PS.PNG);
+	background-image: url(../images/PS.png);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -o-border-radius: 50%;
@@ -1261,7 +1261,7 @@ height:100%;
   -moz-border-radius: 50%;
 }
 .ch-img-2 { 
-	background-image: url(../images/AI.PNG);
+	background-image: url(../images/AI.png);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -o-border-radius: 50%;
@@ -1269,7 +1269,7 @@ height:100%;
   -moz-border-radius: 50%;
 }
 .ch-img-3 { 
-	background-image: url(../images/COR.PNG);
+	background-image: url(../images/cor.png);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -o-border-radius: 50%;
@@ -1277,7 +1277,7 @@ height:100%;
   -moz-border-radius: 50%;
 }
 .ch-img-4{ 
-	background-image: url(../images/DW.PNG);
+	background-image: url(../images/DW.png);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -o-border-radius: 50%;
