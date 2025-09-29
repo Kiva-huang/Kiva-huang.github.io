@@ -337,8 +337,8 @@ a.callbacks_nav.callbacks2_nav.next {
 
 /*-- banner --*/
 .banner {
-  /* background: url(../image/12.jpg) no-repeat 0px 0px; */
-  background: url(../image/13.png) no-repeat 0px 0px;
+  background: url(../image/12.jpg) no-repeat 0px 0px;
+  /* background: url(../image/13.png) no-repeat 0px 0px; */
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
