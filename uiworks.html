@@ -1,190 +1,205 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>UI设计师黄秋兰</title>
-<!-- for-mobile-apps -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="keywords" content="Spasol Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+	<head>
+		<title>UI设计师黄秋兰</title>
+		<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="keywords" content="Spasol Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design">
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //for-mobile-apps -->
-<link href="static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-<link href="static/css/style.css" rel="stylesheet" type="text/css" media="all">
-<link rel="stylesheet" href="static/css/swipebox.css">
-<!-- js -->
-<script src="static/js/jquery-1.11.1.min.js"></script>
-<!-- //js -->
+		<script type="application/x-javascript">
+			addEventListener("load", function() {
+				setTimeout(hideURLbar, 0);
+			}, false);
 
-	<!-- start-smoth-scrolling -->
+			function hideURLbar() {
+				window.scrollTo(0, 1);
+			}
+		</script>
+		<!-- //for-mobile-apps -->
+		<link href="static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+		<link href="static/css/style.css" rel="stylesheet" type="text/css" media="all">
+		<link rel="stylesheet" href="static/css/swipebox.css">
+		<!-- js -->
+		<script src="static/js/jquery-1.11.1.min.js"></script>
+		<!-- //js -->
+
+		<!-- start-smoth-scrolling -->
 		<script type="text/javascript" src="static/js/move-top.js"></script>
 		<script type="text/javascript" src="static/js/easing.js"></script>
 		<script type="text/javascript">
 			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){
+				$(".scroll").click(function(event) {
 					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+					$('html,body').animate({
+						scrollTop: $(this.hash).offset().top
+					}, 1000);
 				});
 			});
 		</script>
-	<!-- start-smoth-scrolling -->
-</head>
-<body>
-<!-- banner -->
-<div class="banner page-head">
-	<div class="container">
-		<div class="header">
-			<div class="logo">
-				<h1>
-					<a class="link link--yaku" href="index.html">
-						Sharon
-					</a>
-				</h1>
+		<!-- start-smoth-scrolling -->
+	</head>
+	<body>
+		<!-- banner -->
+		<div class="banner page-head">
+			<div class="container">
+				<div class="header">
+					<div class="logo">
+						<h1>
+							<a class="link link--yaku" href="index.html">
+								Sharon
+							</a>
+						</h1>
+					</div>
+					<div class="navigation">
+						<span class="menu"><img src="static/picture/menu.png" alt=""></span>
+						<ul class="nav1">
+							<li><a class="hvr-overline-from-center button2" href="index.html">首页</a></li>
+							<li><a class="hvr-overline-from-center button2" href="information.html">基本信息</a></li>
+							<li><a class="hvr-overline-from-center button2 active" href="">UI作品集</a></li>
+							<li><a class="hvr-overline-from-center button2" href="works.html">产品体验</a></li>
+							<li><a class="hvr-overline-from-center button2" href="experience.html">工作经历</a></li>
+							<li><a class="hvr-overline-from-center button2" href="contact.html">联系我</a></li>
+						</ul>
+						<!-- script for menu -->
+						<script>
+							$("span.menu").click(function() {
+								$("ul.nav1").slideToggle(300, function() {
+									// Animation complete.
+								});
+							});
+						</script>
+						<!-- //script for menu -->
+					</div>
+					<div class="search">
+						<form>
+							<input type="search" value="点击输入" onfocus="this.value = '';"
+								onblur="if (this.value == '') {this.value = 'Search';}" required="">
+							<input type="submit" value=" ">
+						</form>
+					</div>
+					<div class="clearfix"></div>
+				</div>
 			</div>
-			<div class="navigation">
-				<span class="menu"><img src="static/picture/menu.png" alt=""></span>
-				<ul class="nav1">
-					<li><a class="hvr-overline-from-center button2" href="index.html">首页</a></li>
-					<li><a class="hvr-overline-from-center button2" href="information.html">基本信息</a></li>
-					<li><a class="hvr-overline-from-center button2 active" href="">UI作品集</a></li>
-                    <li><a class="hvr-overline-from-center button2" href="works.html">产品体验</a></li>
-					<li><a class="hvr-overline-from-center button2" href="experience.html">工作经历</a></li>
-					<li><a class="hvr-overline-from-center button2" href="contact.html">联系我</a></li>
-				</ul>
-				<!-- script for menu -->
-					<script>
-						$( "span.menu" ).click(function() {
-						$( "ul.nav1" ).slideToggle( 300, function() {
-						 // Animation complete.
-						});
-						});
-					</script>
-				<!-- //script for menu -->
-			</div>
-			<div class="search">
-				<form>
-					<input type="search" value="点击输入" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}" required="">
-					<input type="submit" value=" ">
-				</form>
-			</div>
-			<div class="clearfix"></div>
 		</div>
-	</div>
-</div>
-<!-- //banner -->
-<!--gallery-starts-->
+		<!-- //banner -->
+		<!--gallery-starts-->
 
-<div class="treatments">
-	<div class="container">
-		<h3 class="tittle-one">UI作品</h3>
+		<div class="treatments">
+			<div class="container">
+				<h3 class="tittle-one">UI作品</h3>
 
-			<!-- <img style="width: 100%;" src="static/picture/1-1封面页.png" alt=""> -->
-			<img style="width: 100%;" src="static/image/13.png" alt="">
-			<img style="width: 100%;marging-top:10px;" src="static/picture/1-2目录页.png" alt="">
-            <img style="width: 100%;marging-top:10px;" src="static/images/1.jpg" alt="">
-            <img style="width: 100%;marging-top:10px;" src="static/images/11.png" alt="">
-            <img style="width: 100%;marging-top:10px;" src="static/images/2.jpg" alt="">
-			<img style="width: 100%;marging-top:10px;" src="static/images/3.jpg" alt="">
-			<img style="width: 100%;marging-top:10px;" src="static/images/04.jpg" alt="">
-		
-        	<img style="width: 100%;marging-top:10px;" src="static/images/5.jpg" alt="">
-			<img style="width: 100%;marging-top:10px;" src="static/images/6.jpg" alt="">
-        <img style="width: 100%;marging-top:10px;" src="static/picture/7.jpg" alt="">
-        <img style="width: 100%;marging-top:10px;" src="static/picture/8.jpg" alt="">
-        <img style="width: 100%;marging-top:10px;" src="static/picture/9999.png" alt="">
-        <img style="width: 100%;marging-top:10px;" src="static/picture/10.png" alt="">
-        <img style="width: 100%;marging-top:10px;" src="static/picture/11.png" alt="">
-        <img style="width: 100%;marging-top:10px;" src="static/picture/12.png" alt="">
-        <img style="width: 100%;marging-top:10px;" src="static/picture/13.png" alt="">
-        <img style="width: 100%;marging-top:10px;" src="static/picture/14.png" alt="">
-        <img style="width: 100%;marging-top:10px;" src="static/picture/15.png" alt="">
-        <img style="width: 100%;marging-top:10px;" src="static/picture/16.png" alt="">
-        <img style="width: 100%;marging-top:10px;" src="static/picture/17.png" alt="">
-       
-        <img style="width: 100%;" src="static/picture/19.png" alt="">
-      
-        <img style="width: 100%;" src="static/picture/21.png" alt="">
-        <img style="width: 100%;" src="static/picture/22.png" alt="">
-        <img style="width: 100%;" src="static/picture/23.png" alt="">
-        <img style="width: 100%;" src="static/picture/24.png" alt="">
-        <img style="width: 100%;" src="static/picture/25.png" alt="">
-  
-<video width="100%" controls>
-  <source src="static/spp1.mp4" type="video/mp4">
-</video>
-<video width="100%" controls>
-     <source src="static/sp2.mp4" type="video/mp4">
+				<!-- <img style="width: 100%;" src="static/picture/1-1封面页.png" alt=""> -->
+				<img style="width: 100%;" src="static/image/13.png" alt="">
+				<img style="width: 100%;marging-top:10px;" src="static/picture/1-2目录页.png" alt="">
+				<img style="width: 100%;marging-top:10px;" src="static/images/1.jpg" alt="">
+				<img style="width: 100%;marging-top:10px;" src="static/images/11.png" alt="">
+				<img style="width: 100%;marging-top:10px;" src="static/images/2.jpg" alt="">
+				<img style="width: 100%;marging-top:10px;" src="static/images/3.jpg" alt="">
+				<img style="width: 100%;marging-top:10px;" src="static/images/04.jpg" alt="">
 
-</video>
-      <img style="width: 100%;" src="static/picture/26.png" alt="">
+				<img style="width: 100%;marging-top:10px;" src="static/images/5.jpg" alt="">
+				<img style="width: 100%;marging-top:10px;" src="static/images/6.jpg" alt="">
+				<img style="width: 100%;marging-top:10px;" src="static/picture/7.jpg" alt="">
+				<img style="width: 100%;marging-top:10px;" src="static/picture/8.jpg" alt="">
+				<img style="width: 100%;marging-top:10px;" src="static/picture/9999.png" alt="">
+				<img style="width: 100%;marging-top:10px;" src="static/picture/10.png" alt="">
+				<img style="width: 100%;marging-top:10px;" src="static/picture/11.png" alt="">
+				<img style="width: 100%;marging-top:10px;" src="static/picture/12.png" alt="">
+				<img style="width: 100%;marging-top:10px;" src="static/picture/13.png" alt="">
+				<img style="width: 100%;marging-top:10px;" src="static/picture/14.png" alt="">
+				<img style="width: 100%;marging-top:10px;" src="static/picture/15.png" alt="">
+				<img style="width: 100%;marging-top:10px;" src="static/picture/16.png" alt="">
+				<img style="width: 100%;marging-top:10px;" src="static/picture/17.png" alt="">
+
+				<img style="width: 100%;" src="static/picture/19.png" alt="">
+
+				<img style="width: 100%;" src="static/picture/21.png" alt="">
+				<img style="width: 100%;" src="static/picture/22.png" alt="">
+				<img style="width: 100%;" src="static/picture/23.png" alt="">
+				<img style="width: 100%;" src="static/picture/24.png" alt="">
+				<img style="width: 100%;" src="static/picture/25.png" alt="">
+
+				<video width="100%" controls>
+					<source src="static/spp1.mp4" type="video/mp4">
+				</video>
+				<video width="100%" controls>
+					<source src="static/sp2.mp4" type="video/mp4">
+
+				</video>
+				<img style="width: 100%;" src="static/picture/26.png" alt="">
 				<div class="clearfix"></div>
-				
-	</div>
-</div>
-<!--gallery-ends-->
-<!-- footer -->
-	<div class="footer">
-		<div class="container">
-			<div class="col-md-3 ftr_navi ftr">
-				<h3>导航</h3>
-				<ul>
-					<li><a href="index.html">首页</a></li>
-					<li><a href="about.html">基本信息</a></li>
-					<li><a href="treatments.html">UI作品</a></li>
-					<li><a href="shortcodes.html">工作经历</a></li>
-					<li><a href="contact.html">联系我</a></li>
-				</ul>
+
 			</div>
-			<div class="col-md-3 ftr_navi ftr">
-					 <h3>信息</h3>
-					 <ul>
-						 <li><a href="#">网站类型：个人网站</a></li>
-						 <li><a href="#">发布者：黄秋兰</a></li>
-					 </ul>
-			</div>
-			<div class="col-md-3 ftr_navi ftr">
-				<h3>联系方式</h3>
-				<h2>黄秋兰</h2>
-				<p>电话号码：18772263967</p>
-				<a href="mailto:yangxiaoying80156@163.com">18772263967@163.com </a>
-			</div>
-			<div class="col-md-3 ftr_navi ftr">
-				<h3>关注</h3>
-				<form>
-					<input type="text" value="输入您的电子邮件" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your email';}" required="">
-					<span class="glyphicon glyphicon-envelope" aria-hidden="true"><input type="submit" value=" "></span>
-				</form>
-			</div>
-			<div class="clearfix"> </div>
 		</div>
-	</div>
-<!-- //footer -->
-<!-- copy right -->
-<div class="copy-right">
-	<div class="container">
-		<p>Huangqiulang &copy; 2018.一个热爱生活的设计师 <a href="">2018</a> - Collect from <a href="">2018</a></p>
-	</div>
-</div>
-<!-- //copy right -->
-<!-- for bootstrap working -->
-	<script src="static/js/bootstrap.js"></script>
-<!-- //for bootstrap working -->
-<!-- smooth scrolling -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-		/*
-			var defaults = {
-			containerID: 'toTop', // fading element id
-			containerHoverID: 'toTopHover', // fading element hover id
-			scrollSpeed: 1200,
-			easingType: 'linear'
-			};
-		*/
-		$().UItoTop({ easingType: 'easeOutQuart' });
-		});
-	</script>
-	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-<!-- //smooth scrolling -->
-</body>
+		<!--gallery-ends-->
+		<!-- footer -->
+		<div class="footer">
+			<div class="container">
+				<div class="col-md-3 ftr_navi ftr">
+					<h3>导航</h3>
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="about.html">基本信息</a></li>
+						<li><a href="treatments.html">UI作品</a></li>
+						<li><a href="shortcodes.html">工作经历</a></li>
+						<li><a href="works.html">产品体验</a></li>
+						<li><a href="contact.html">联系我</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 ftr_navi ftr">
+					<h3>信息</h3>
+					<ul>
+						<li><a href="#">网站类型：个人网站</a></li>
+						<li><a href="#">发布者：黄秋兰</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 ftr_navi ftr">
+					<h3>联系方式</h3>
+					<h2>黄秋兰</h2>
+					<p>电话号码：18772263967</p>
+					<a href="mailto:yangxiaoying80156@163.com">18772263967@163.com </a>
+				</div>
+				<div class="col-md-3 ftr_navi ftr">
+					<h3>关注</h3>
+					<form>
+						<input type="text" value="输入您的电子邮件" onfocus="this.value = '';"
+							onblur="if (this.value == '') {this.value = 'Enter your email';}" required="">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"><input type="submit"
+								value=" "></span>
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!-- //footer -->
+		<!-- copy right -->
+		<div class="copy-right">
+			<div class="container">
+				<p>Huangqiulang &copy; 2018.一个热爱生活的设计师 <a href="">2018</a> - Collect from <a href="">2018</a></p>
+			</div>
+		</div>
+		<!-- //copy right -->
+		<!-- for bootstrap working -->
+		<script src="static/js/bootstrap.js"></script>
+		<!-- //for bootstrap working -->
+		<!-- smooth scrolling -->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				/*
+					var defaults = {
+					containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear'
+					};
+				*/
+				$().UItoTop({
+					easingType: 'easeOutQuart'
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		<!-- //smooth scrolling -->
+	</body>
 </html>

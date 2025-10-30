@@ -1,102 +1,115 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>UI设计师黄秋兰</title>
-<!-- for-mobile-apps -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="keywords" content="Spasol Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+	<head>
+		<title>UI设计师黄秋兰</title>
+		<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="keywords" content="Spasol Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design">
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //for-mobile-apps -->
-<link href="static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-<link href="static/css/style.css" rel="stylesheet" type="text/css" media="all">
-<!-- js -->
-<script src="static/js/jquery-1.11.1.min.js"></script>
-<!-- //js -->
+		<script type="application/x-javascript">
+			addEventListener("load", function() {
+				setTimeout(hideURLbar, 0);
+			}, false);
 
-	<!-- start-smoth-scrolling -->
+			function hideURLbar() {
+				window.scrollTo(0, 1);
+			}
+		</script>
+		<!-- //for-mobile-apps -->
+		<link href="static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+		<link href="static/css/style.css" rel="stylesheet" type="text/css" media="all">
+		<!-- js -->
+		<script src="static/js/jquery-1.11.1.min.js"></script>
+		<!-- //js -->
+
+		<!-- start-smoth-scrolling -->
 		<script type="text/javascript" src="static/js/move-top.js"></script>
 		<script type="text/javascript" src="static/js/easing.js"></script>
 		<script type="text/javascript">
 			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){
+				$(".scroll").click(function(event) {
 					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+					$('html,body').animate({
+						scrollTop: $(this.hash).offset().top
+					}, 1000);
 				});
 			});
 		</script>
-	<!-- start-smoth-scrolling -->
-</head>
-<body>
-<!-- banner -->
-<div class="banner page-head">
-	<div class="container">
-		<div class="header">
-			<div class="logo">
-				<h1>
-					<a class="link link--yaku" href="index.html">
-						Sharon
-					</a>
-				</h1>
+		<!-- start-smoth-scrolling -->
+	</head>
+	<body>
+		<!-- banner -->
+		<div class="banner page-head">
+			<div class="container">
+				<div class="header">
+					<div class="logo">
+						<h1>
+							<a class="link link--yaku" href="index.html">
+								Sharon
+							</a>
+						</h1>
+					</div>
+					<div class="navigation">
+						<span class="menu"><img src="static/picture/menu.png" alt=""></span>
+						<ul class="nav1">
+							<li><a class="hvr-overline-from-center button2" href="index.html">首页</a></li>
+							<li><a class="hvr-overline-from-center button2 active" href="">基本信息</a></li>
+							<li><a class="hvr-overline-from-center button2" href="uiworks.html">UI作品集</a></li>
+							<li><a class="hvr-overline-from-center button2" href="works.html">产品体验</a></li>
+							<li><a class="hvr-overline-from-center button2" href="experience.html">工作经历</a></li>
+							<li><a class="hvr-overline-from-center button2" href="contact.html">联系我</a></li>
+						</ul>
+						<!-- script for menu -->
+						<script>
+							$("span.menu").click(function() {
+								$("ul.nav1").slideToggle(300, function() {
+									// Animation complete.
+								});
+							});
+						</script>
+						<!-- //script for menu -->
+					</div>
+					<div class="search">
+						<form>
+							<input type="search" value="点击输入" onfocus="this.value = '';"
+								onblur="if (this.value == '') {this.value = 'Search';}" required="">
+							<input type="submit" value=" ">
+						</form>
+					</div>
+					<div class="clearfix"></div>
+				</div>
 			</div>
-			<div class="navigation">
-				<span class="menu"><img src="static/picture/menu.png" alt=""></span>
-				<ul class="nav1">
-					<li><a class="hvr-overline-from-center button2" href="index.html">首页</a></li>
-					<li><a class="hvr-overline-from-center button2 active" href="">基本信息</a></li>
-					<li><a class="hvr-overline-from-center button2" href="uiworks.html">UI作品集</a></li>
-                    <li><a class="hvr-overline-from-center button2" href="works.html">产品体验</a></li>
-					<li><a class="hvr-overline-from-center button2" href="experience.html">工作经历</a></li>
-					<li><a class="hvr-overline-from-center button2" href="contact.html">联系我</a></li>
-				</ul>
-				<!-- script for menu -->
-					<script>
-						$( "span.menu" ).click(function() {
-						$( "ul.nav1" ).slideToggle( 300, function() {
-						 // Animation complete.
-						});
-						});
-					</script>
-				<!-- //script for menu -->
-			</div>
-			<div class="search">
-				<form>
-					<input type="search" value="点击输入" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}" required="">
-					<input type="submit" value=" ">
-				</form>
-			</div>
-			<div class="clearfix"></div>
 		</div>
-	</div>
-</div>
-<!-- //banner -->
-<!-- about -->
-	<!--start-about-->
-	<div class="about">
-		<div class="container">
-			<div class="about-top heading">
-				<h3 class="tittle-one">基本信息</h3>
+		<!-- //banner -->
+		<!-- about -->
+		<!--start-about-->
+		<div class="about">
+			<div class="container">
+				<div class="about-top heading">
+					<h3 class="tittle-one">基本信息</h3>
+				</div>
+				<div class="about-bottom l-grids text-center">
+					<figure class="effect-bubba">
+						<img style="transform:scale(.95)" src="static/picture/2222.jpg" alt="">
+						<figcaption>
+							<h4>资料</h4>
+							<p><b>姓名：黄秋兰-------------性别：女<br>兴趣与爱好：-------------绘画、摄影、设计<br>特长:-------------美术、设计</b>
+							</p>
+						</figcaption>
+					</figure>
+				</div>
+				<h5>湖北师范大学产品设计专业</h5>
+				<p>
+
+湖北师范大学产品设计专业秉承“学以致用、追求卓越”的育人理念，致力于培养具备扎实理论基础、卓越创新能力和深厚人文素养的复合型设计人才。专业课程体系完善，涵盖设计史论、造型基础、人机工程学、交互设计、材料与工艺等多个核心领域，并注重将荆楚地域文化特色融入现代设计教学。通过工作室制、项目驱动及校企合作等多元化实践模式，着力培养学生的市场洞察、用户研究、设计表达与综合实践能力。毕业生能够在制造业、互联网、文化创意等产业从事产品策划、创新设计、用户体验研究及设计管理等工作，前景广阔。</p>
 			</div>
-			<div class="about-bottom l-grids text-center">
-				<figure class="effect-bubba">
-					<img style="transform:scale(.95)" src="static/picture/2222.jpg" alt="">
-					<figcaption>
-						<h4>资料</h4>
-						<p><b>姓名：黄秋兰-------------性别：女<br>兴趣与爱好：-------------绘画、摄影、设计<br>特长:-------------美术、设计</b></p>
-					</figcaption>
-				</figure>
-			</div>
-			<h5>湖北师范大学产品设计专业</h5>
-			<p>生活在浩瀚的宇宙，满天漂浮的宇宙尘埃和星河光尘，我们是比这些还要渺小的存在，你并不知道生活什么时候突然改变方向，陷入墨水一般浓稠的黑暗里去。你被失望拖进深渊、你被疾病拉进坟墓、你被挫折践踏的体无完肤、你被嘲笑、被讽刺、被讨厌、被怨恨、被放弃。<br>但我们总在内心深处保留着希望保留着不甘放弃跳动的心。我们依然在大大的绝望里小小的努力着。这种不想放弃的心情，他们变成无边黑暗的小小星辰。我们都是小小的星辰........</p>
 		</div>
-	</div>
-	<!--start-teacher-->
-	<div class="staff">
-		<div class="container">
-			<h3 class="tittle-one">专业技能</h3>
-			<ul class="ch-grid">
+		<!--start-teacher-->
+		<div class="staff">
+			<div class="container">
+				<h3 class="tittle-one">专业技能</h3>
+				<ul class="ch-grid">
 					<li>
 						<div class="ch-item ch-img-1">
 							<div class="ch-info-wrap">
@@ -149,70 +162,75 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 						</div>
 					</li>
-			</ul>
-		</div>
-	</div>
-<!--//about-->
-<!-- footer -->
-<div class="footer">
-		<div class="container">
-			<div class="col-md-3 ftr_navi ftr">
-				<h3>导航</h3>
-				<ul>
-					<li><a href="index.html">首页</a></li>
-					<li><a href="about.html">基本信息</a></li>
-					<li><a href="treatments.html">作品集</a></li>
-					<li><a href="shortcodes.html">工作经历</a></li>
-					<li><a href="contact.html">联系我</a></li>
 				</ul>
 			</div>
-			<div class="col-md-3 ftr_navi ftr">
-					 <h3>黄秋兰</h3>
-					 <ul>
-						 <li><a href="#">网站类型：个人网站</a></li>
-					 </ul>
-			</div>
-			<div class="col-md-3 ftr_navi ftr">
-				<h3>联系方式</h3>
-				<h2>黄秋兰</h2>
-				<p>电子邮件：2546913001@qq.com</p>
-			</div>
-			<div class="col-md-3 ftr_navi ftr">
-				<h3>关注</h3>
-				<form>
-					<input type="text" value="输入您的电子邮件" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your email';}" required="">
-					<span class="glyphicon glyphicon-envelope" aria-hidden="true"><input type="submit" value=" "></span>
-				</form>
-			</div>
-			<div class="clearfix"> </div>
 		</div>
-	</div>
-<!-- //footer -->
-<!-- copy right -->
-<div class="copy-right">
-	<div class="container">
-	  <p>Huangqiulan &copy; 2018.一个热爱生活的设计师 <a>2018</a> - Collect from <a t="t">2018</a></p>
-	</div>
-</div>
-<!-- //copy right -->
-<!-- for bootstrap working -->
-	<script src="static/js/bootstrap.js"></script>
-<!-- //for bootstrap working -->
-<!-- smooth scrolling -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-		/*
-			var defaults = {
-			containerID: 'toTop', // fading element id
-			containerHoverID: 'toTopHover', // fading element hover id
-			scrollSpeed: 1200,
-			easingType: 'linear'
-			};
-		*/
-		$().UItoTop({ easingType: 'easeOutQuart' });
-		});
-	</script>
-	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-<!-- //smooth scrolling -->
-</body>
+		<!--//about-->
+		<!-- footer -->
+		<div class="footer">
+			<div class="container">
+				<div class="col-md-3 ftr_navi ftr">
+					<h3>导航</h3>
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="about.html">基本信息</a></li>
+						<li><a href="treatments.html">作品集</a></li>
+						<li><a href="shortcodes.html">工作经历</a></li>
+						<li><a href="works.html">产品体验</a></li>
+						<li><a href="contact.html">联系我</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 ftr_navi ftr">
+					<h3>黄秋兰</h3>
+					<ul>
+						<li><a href="#">网站类型：个人网站</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 ftr_navi ftr">
+					<h3>联系方式</h3>
+					<h2>黄秋兰</h2>
+					<p>电子邮件：2546913001@qq.com</p>
+				</div>
+				<div class="col-md-3 ftr_navi ftr">
+					<h3>关注</h3>
+					<form>
+						<input type="text" value="输入您的电子邮件" onfocus="this.value = '';"
+							onblur="if (this.value == '') {this.value = 'Enter your email';}" required="">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"><input type="submit"
+								value=" "></span>
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!-- //footer -->
+		<!-- copy right -->
+		<div class="copy-right">
+			<div class="container">
+				<p>Huangqiulan &copy; 2018.一个热爱生活的设计师 <a>2018</a> - Collect from <a t="t">2018</a></p>
+			</div>
+		</div>
+		<!-- //copy right -->
+		<!-- for bootstrap working -->
+		<script src="static/js/bootstrap.js"></script>
+		<!-- //for bootstrap working -->
+		<!-- smooth scrolling -->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				/*
+					var defaults = {
+					containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear'
+					};
+				*/
+				$().UItoTop({
+					easingType: 'easeOutQuart'
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		<!-- //smooth scrolling -->
+	</body>
 </html>
